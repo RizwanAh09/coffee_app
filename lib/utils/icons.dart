@@ -26,7 +26,7 @@ class IconsClass extends StatelessWidget {
     ),
 
      const SizedBox(
-    height: 10,
+    height: 11,
     ),
 
      const Text("Send",
