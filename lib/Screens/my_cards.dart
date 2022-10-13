@@ -24,7 +24,7 @@ class _MyCardState extends State<MyCard> {
           child: FloatingActionButton(
             onPressed: () {},
             backgroundColor: Colors.pink[200],
-            child: Icon(
+            child: const Icon(
               Icons.monetization_on,
               size: 32,
               color: Colors.white,
@@ -39,9 +39,9 @@ class _MyCardState extends State<MyCard> {
             child: Row(
               mainAxisAlignment: MainAxisAlignment.spaceAround,
               children: [
-                IconButton(onPressed: () {}, icon: Icon(Icons.home),
+                IconButton(onPressed: () {}, icon: const Icon(Icons.home),
                 iconSize: 32,),
-                IconButton(onPressed: () {}, icon: Icon(Icons.settings),
+                IconButton(onPressed: () {}, icon: const Icon(Icons.settings),
                 iconSize: 32,),
               ],
             ),
